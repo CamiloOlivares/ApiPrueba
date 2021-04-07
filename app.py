@@ -36,6 +36,6 @@ def gethorario():
     return jsonify(horario)     
        
 if __name__=='__main__':
-    app.run(debug=True, port=4000,host='192.168.0.57')
+    app.run(debug=True, port=4000)
 
 
